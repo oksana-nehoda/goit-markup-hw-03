@@ -1,5 +1,7 @@
 .team {
   background-color: #f4f4fd;
+  padding-top: 120px;
+  padding-bottom: 120p;
 }
 
 .team-title {
@@ -13,6 +15,7 @@
 
 .team-card {
   background-color: #ffffff;
+  width: calc((100%-72px) / 4);
 }
 
 .team-name {
@@ -31,4 +34,10 @@
   letter-spacing: 0.02em;
   color: #434455;
   text-align: center;
+}
+
+.team-list {
+  display: flex;
+  gap: 24px;
+  list-style: none;
 }

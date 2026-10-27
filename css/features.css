@@ -20,3 +20,18 @@
   letter-spacing: 0.02em;
   color: #434455;
 }
+
+.features {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.features-list {
+  display: flex;
+  gap: 24px;
+  list-style: none;
+}
+
+.features-item {
+  width: calc((100%-72px) / 4);
+}
