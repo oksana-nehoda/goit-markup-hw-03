@@ -28,6 +28,8 @@
   color: #ffffff;
   cursor: pointer;
   border: none;
+  padding: 16px 32px;
+  border-radius: 4px;
 }
 
 .hero-btn:hover,
